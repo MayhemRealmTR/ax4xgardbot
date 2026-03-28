@@ -24,20 +24,22 @@ module.exports = {
                 { name: "unmute", desc: "Unmute a member", cat: "moderation" },
                 { name: "slowmode", desc: "Set slowmode in current channel", cat: "moderation" },
                 { name: "blacklist", desc: "Blacklist a user", cat: "moderation" },
-                { name: "unblacklist", desc: "Remove blacklist", cat: "moderation" },
+                { name: "unblacklist", desc: "Remove blacklist from a user", cat: "moderation" },
                 { name: "modlogs", desc: "Show moderation logs for a user", cat: "moderation" },
                 { name: "lock", desc: "Lock current channel", cat: "moderation" },
                 { name: "unlock", desc: "Unlock current channel", cat: "moderation" },
                 { name: "purge", desc: "Delete multiple messages", cat: "moderation" },
+                { name: "nuke", desc: "Nuke (delete a huge amount of) messages", cat: "moderation" },
                 { name: "botclear", desc: "Clear bot messages", cat: "moderation" },
                 { name: "nick", desc: "Change a member's nickname", cat: "moderation" },
                 { name: "verify", desc: "Verify a member (requires setup)", cat: "moderation" },
-
+                { name: "usage", desc: "Show command usage statistics", cat: "moderation" },
+            
                 // Roblox
                 { name: "robloxuser", desc: "Get Roblox user info", cat: "roblox" },
                 { name: "robloxavatar", desc: "Show Roblox avatar", cat: "roblox" },
                 { name: "convertuserid", desc: "Convert username ↔ User ID", cat: "roblox" },
-
+            
                 // Fun / Meters
                 { name: "pp", desc: "PP size machine", cat: "fun" },
                 { name: "howgay", desc: "How gay radar", cat: "fun" },
@@ -50,7 +52,7 @@ module.exports = {
                 { name: "goonmeter", desc: "How much you goon", cat: "fun" },
                 { name: "femboymeter", desc: "How much of a femboy you are", cat: "fun" },
                 { name: "cuckmeter", desc: "How much of a cuck you are", cat: "fun" },
-
+            
                 // Utility
                 { name: "userinfo", desc: "Show user information", cat: "utility" },
                 { name: "avatar", desc: "Show a user's avatar", cat: "utility" },
@@ -64,7 +66,7 @@ module.exports = {
                 { name: "translate", desc: "Translate text", cat: "utility" },
                 { name: "qrcode", desc: "Generate QR code", cat: "utility" },
                 { name: "base64", desc: "Encode/decode Base64", cat: "utility" },
-                { name: "importemoji", desc: "Steal emojis from other servers", cat: "utility" },
+                { name: "importemojis", desc: "Steal multiple emojis from other servers", cat: "utility" },
                 { name: "firstmessage", desc: "Get the first message in a channel", cat: "utility" },
                 { name: "permissions", desc: "Show a user's permissions", cat: "utility" },
                 { name: "boosters", desc: "List all server boosters", cat: "utility" },
@@ -72,7 +74,8 @@ module.exports = {
                 { name: "addalias", desc: "Add command alias", cat: "utility" },
                 { name: "listalias", desc: "List server aliases", cat: "utility" },
                 { name: "removealias", desc: "Remove command alias", cat: "utility" },
-
+                { name: "ping", desc: "Check bot latency and response time", cat: "utility" },
+            
                 // Role Management
                 { name: "roleinfo", desc: "Show info about a role", cat: "utility" },
                 { name: "rolecolor", desc: "Change role color", cat: "utility" },
@@ -81,7 +84,7 @@ module.exports = {
                 { name: "roleabove", desc: "Place role1 above role2", cat: "utility" },
                 { name: "rolehoist", desc: "Set role hoist true/false", cat: "utility" },
                 { name: "role", desc: "Add/remove roles from user (supports multiple)", cat: "utility" },
-
+            
                 // Owner Only
                 { name: "shutdown", desc: "Shutdown the bot", cat: "owner" },
                 { name: "restart", desc: "Restart the bot", cat: "owner" },
