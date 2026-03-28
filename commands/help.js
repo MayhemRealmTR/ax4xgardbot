@@ -33,7 +33,6 @@ module.exports = {
                 { name: "botclear", desc: "Clear bot messages", cat: "moderation" },
                 { name: "nick", desc: "Change a member's nickname", cat: "moderation" },
                 { name: "verify", desc: "Verify a member (requires setup)", cat: "moderation" },
-                { name: "usage", desc: "Show command usage statistics", cat: "moderation" },
             
                 // Roblox
                 { name: "robloxuser", desc: "Get Roblox user info", cat: "roblox" },
@@ -113,7 +112,6 @@ module.exports = {
                     container.addSeparatorComponents(new SeparatorBuilder().setSpacing(SeparatorSpacingSize.Small).setDivider(true));
                     container.addTextDisplayComponents(new TextDisplayBuilder().setContent(`**Description:** ${cmd.desc}`));
                     container.addTextDisplayComponents(new TextDisplayBuilder().setContent(`**Category:** ${cmd.cat}`));
-                    container.addTextDisplayComponents(new TextDisplayBuilder().setContent(`**Syntax:** Use \`a$usage ${cmd.name}\` to see exact usage`));
 
                     return message.channel.send({
                         components: [container],
